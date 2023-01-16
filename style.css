@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+*{
+    font-size: 1em;
+}
+:root{
+    --head:#2b9aa0;
+    --primary:#464c56;
+    --secondary:#4a545d;
+}
+
+
+body{
+    background-image: url(./img/fond.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Open sans",sans-serif;
+}
+h1,h2,h3,h4,nav ul li a{
+    font-family: "Slabo 27px",sans-serif;
+}
+header{
+    margin-top: 60px;
+}
+nav{
+    text-align: center;
+    background-color: #34b1b2;
+    border-top: 5px solid var(--head);
+    border-bottom: 5px solid var(--head);
+}
+nav ul{
+    list-style: none;
+    padding-bottom: 20px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+
+header section{
+    text-align: center;
+    width: 50%;
+    margin: 50px auto;
+}
+header section h2{
+    font-size: 2.5em;
+    color: var(--primary);
+}
+header section p{
+    color: var(--secondary);
+    text-align: center;
+    text-indent: 20px;
+}
+
+main{
+    position: relative;
+    width: 80%;
+    margin:50px auto;
+}
+.left{
+    display: inline-block;
+    width: 70%;
+    background-color: #b6dedc;
+}
+.left h1{
+    text-align: center;
+    font-size: 3.5em;
+    color: #454a54;
+}
+.left h1 span{
+    color: var(--head);
+}
+.left .cont{
+    width: 95%;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+.left .cont article{
+    display: inline-block;
+    max-width: 300px;
+}
+.left .cont article h3{
+    text-align: center;
+    font-size: 1.8em;
+    color:var(--primary);
+}
+.left .cont article h3 i{
+    color: #34b1b2;
+    margin:0 10px;
+}
+.left .cont article img{
+    border-radius: 50%;
+    float: left;
+    margin:0 10px 2px 0;
+}
+.left .cont article{
+    overflow: auto;
+}
+.left .cont article p {
+    line-height: 1.5;
+    color: var(--secondary);
+}
+.left .cont article p span{
+    clear: both;
+}
+.recipe2{
+    margin-left: 35px;
+}
+.recipe1{
+    margin-bottom: 184px;
+}
+.left .cont article a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: var(--head);
+    padding: 10px 20px;
+    float: right;
+    font-size: 1.1em;
+}
+.left .cont article a i{
+    color: #ffffff;
+}
+/*RIGHT STYLE*/
+.right{
+    background-color: #34b1b2;
+    border: 5px solid #2b9aa0;
+    width: 26%;
+    display: inline-block;
+    margin-left: 10px;
+    position: absolute;
+    top:0;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.right img{
+    position: absolute;
+    top: -55px;
+    right: -50px;
+    transition: all ease-in 500ms;
+}
+.right img:hover{
+    transform: rotate(20deg);
+}
+.right span, .right h4{
+    color: #a4d8d6;
+}
+.right h2{
+    font-size: 1.4em;
+}
+.right h4 i{
+    margin-right: 5px;
+}
+.right p{
+    line-height: 1.5;
+}
+/*RIGHT STYLE END*/
+footer{
+    text-align: center;
+    width: 80%;
+    margin: 50px auto;
+}
+footer img{
+    width: 100px;
+    margin-bottom: 20px;
+}
